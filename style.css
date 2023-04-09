@@ -1,0 +1,41 @@
+body{
+    background-color: gray;
+}
+
+
+.para {
+    border: 5px groove;
+    border-radius: 30px;
+    border-color: black;
+    width: 90%;
+    height: 100px;
+    margin-left: 5vw;
+    padding: 0.5rem;
+    background-color: rgb(1, 255, 200);
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    transition: width 2s, height 2s, background-color 2s;
+}
+
+.para:hover {
+    height: 150px;
+}
+
+#btn{
+    border-radius: 20px;
+    margin-left: 40%;
+    background-color: rgb(1, 255, 200);
+    transition: width 1s, height 1s, background-color 2s;   
+}
+#btn:hover{
+    height: 30px;
+    background-color: rgb(6, 72, 58);
+}
+
+
+
+
+
+
